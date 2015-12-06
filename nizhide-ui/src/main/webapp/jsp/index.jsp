@@ -47,7 +47,7 @@
 <div class="pagedlist_item" tabindex="-1" >
 <div class="feed_item p1 row" style="padding: 10px 0 3px 0">
 <a href="/account/mycase">
-<img class=" profile_photo_img" src="./resources/images/forexnews.jpg" width="25" alt="大案" height="25">
+<img class=" profile_photo_img" src="./resources/images/forexnews.jpg" width="50" alt="大案" height="50">
 </a>
 <div class="feed_item_question">
 <div>
@@ -78,7 +78,7 @@
 <div class="pagedlist_item" tabindex="-1" >
 <div class="feed_item p1 row" style="padding: 10px 0 3px 0">
 <a href="/account/chinabaobbei">
-<img class=" profile_photo_img" src="./resources/images/forexnews.jpg" width="25" alt="中国婴童" height="25">
+<img class=" profile_photo_img" src="./resources/images/forexnews.jpg" width="50" alt="中国婴童" height="50">
 </a>
 <div class="feed_item_question">
 <div>
@@ -109,7 +109,7 @@
 <div class="pagedlist_item" tabindex="-1" >
 <div class="feed_item p1 row" style="padding: 10px 0 3px 0">
 <a href="/account/kevinenglishclass">
-<img class=" profile_photo_img" src="./resources/images/forexnews.jpg" width="25" alt="Kevin英语课堂" height="25">
+<img class=" profile_photo_img" src="./resources/images/forexnews.jpg" width="50" alt="Kevin英语课堂" height="50">
 </a>
 <div class="feed_item_question">
 <div>
@@ -140,7 +140,7 @@ Kevin英语课堂
 <div class="pagedlist_item" tabindex="-1" >
 <div class="feed_item p1 row" style="padding: 10px 0 3px 0">
 <a href="/account/aitike521">
-<img class=" profile_photo_img" src="./resources/images/forexnews.jpg" width="25" alt="挨踢客" height="25">
+<img class=" profile_photo_img" src="./resources/images/forexnews.jpg" width="50" alt="挨踢客" height="50">
 </a>
 <div class="feed_item_question">
 <div>
@@ -171,7 +171,7 @@ Kevin英语课堂
 <div class="pagedlist_item" tabindex="-1" >
 <div class="feed_item p1 row" style="padding: 10px 0 3px 0">
 <a href="/account/sxtv-dyxw">
-<img class=" profile_photo_img" src="./resources/images/forexnews.jpg" width="25" alt="第一新闻" height="25">
+<img class=" profile_photo_img" src="./resources/images/forexnews.jpg" width="50" alt="第一新闻" height="50">
 </a>
 <div class="feed_item_question">
 <div>
@@ -202,7 +202,7 @@ Kevin英语课堂
 <div class="pagedlist_item" tabindex="-1" >
 <div class="feed_item p1 row" style="padding: 10px 0 3px 0">
 <a href="/account/worldlist">
-<img class=" profile_photo_img" src="./resources/images/forexnews.jpg" width="25" alt="清单" height="25">
+<img class=" profile_photo_img" src="./resources/images/forexnews.jpg" width="50" alt="清单" height="50">
 </a>
 <div class="feed_item_question">
 <div>
@@ -233,7 +233,7 @@ Kevin英语课堂
 <div class="pagedlist_item" tabindex="-1" >
 <div class="feed_item p1 row" style="padding: 10px 0 3px 0">
 <a href="/account/ThinkerBig">
-<img class=" profile_photo_img" src="./resources/images/forexnews.jpg" width="25" alt="腾讯思享会" height="25">
+<img class=" profile_photo_img" src="./resources/images/forexnews.jpg" width="50" alt="腾讯思享会" height="50">
 </a>
 <div class="feed_item_question">
 <div>
@@ -264,7 +264,7 @@ Kevin英语课堂
 <div class="pagedlist_item" tabindex="-1" >
 <div class="feed_item p1 row" style="padding: 10px 0 3px 0">
 <a href="/account/e_2718281828459">
-<img class=" profile_photo_img" src="./resources/images/forexnews.jpg" width="25" alt="哲学园" height="25">
+<img class=" profile_photo_img" src="./resources/images/forexnews.jpg" width="50" alt="哲学园" height="50">
 </a>
 <div class="feed_item_question">
 <div>
@@ -295,7 +295,7 @@ Kevin英语课堂
 <div class="pagedlist_item" tabindex="-1" >
 <div class="feed_item p1 row" style="padding: 10px 0 3px 0">
 <a href="/account/Living_Law">
-<img class=" profile_photo_img" src="./resources/images/forexnews.jpg" width="25" alt="活着的法律" height="25">
+<img class=" profile_photo_img" src="./resources/images/forexnews.jpg" width="50" alt="活着的法律" height="50">
 </a>
 <div class="feed_item_question">
 <div>
@@ -326,7 +326,7 @@ Kevin英语课堂
 <div class="pagedlist_item" tabindex="-1" >
 <div class="feed_item p1 row" style="padding: 10px 0 3px 0">
 <a href="/account/vittimes">
-<img class=" profile_photo_img" src="./resources/images/forexnews.jpg" width="25" alt="IT时报" height="25">
+<img class=" profile_photo_img" src="./resources/images/forexnews.jpg" width="50" alt="IT时报" height="50">
 </a>
 <div class="feed_item_question">
 <div>
@@ -357,7 +357,7 @@ IT时报
 <div class="pagedlist_item" tabindex="-1" >
 <div class="feed_item p1 row" style="padding: 10px 0 3px 0">
 <a href="/account/wanshui01">
-<img class=" profile_photo_img" src="./resources/images/forexnews.jpg" width="25" alt="晚睡" height="25">
+<img class=" profile_photo_img" src="./resources/images/forexnews.jpg" width="50" alt="晚睡" height="50">
 </a>
 <div class="feed_item_question">
 <div>
@@ -388,7 +388,7 @@ IT时报
 <div class="pagedlist_item" tabindex="-1" >
 <div class="feed_item p1 row" style="padding: 10px 0 3px 0">
 <a href="/account/XKCX_2015">
-<img class=" profile_photo_img" src="./resources/images/forexnews.jpg" width="25" alt="小孔成像" height="25">
+<img class=" profile_photo_img" src="./resources/images/forexnews.jpg" width="50" alt="小孔成像" height="50">
 </a>
 <div class="feed_item_question">
 <div>
@@ -419,7 +419,7 @@ IT时报
 <div class="pagedlist_item" tabindex="-1" >
 <div class="feed_item p1 row" style="padding: 10px 0 3px 0">
 <a href="/account/talicai">
-<img class=" profile_photo_img" src="./resources/images/forexnews.jpg" width="25" alt="她理财" height="25">
+<img class=" profile_photo_img" src="./resources/images/forexnews.jpg" width="50" alt="她理财" height="50">
 </a>
 <div class="feed_item_question">
 <div>
@@ -450,7 +450,7 @@ IT时报
 <div class="pagedlist_item" tabindex="-1" >
 <div class="feed_item p1 row" style="padding: 10px 0 3px 0">
 <a href="/account/globalpeople2006">
-<img class=" profile_photo_img" src="./resources/images/forexnews.jpg" width="25" alt="环球人物杂志" height="25">
+<img class=" profile_photo_img" src="./resources/images/forexnews.jpg" width="50" alt="环球人物杂志" height="50">
 </a>
 <div class="feed_item_question">
 <div>
@@ -481,7 +481,7 @@ IT时报
 <div class="pagedlist_item" tabindex="-1" >
 <div class="feed_item p1 row" style="padding: 10px 0 3px 0">
 <a href="/account/huijiazuofanchi">
-<img class=" profile_photo_img" src="./resources/images/forexnews.jpg" width="25" alt="韩三元做饭吃" height="25">
+<img class=" profile_photo_img" src="./resources/images/forexnews.jpg" width="50" alt="韩三元做饭吃" height="50">
 </a>
 <div class="feed_item_question">
 <div>
@@ -512,7 +512,7 @@ IT时报
 <div class="pagedlist_item" tabindex="-1" >
 <div class="feed_item p1 row" style="padding: 10px 0 3px 0">
 <a href="/account/dreamtruehex">
-<img class=" profile_photo_img" src="./resources/images/forexnews.jpg" width="25" alt="荷香梦花园" height="25">
+<img class=" profile_photo_img" src="./resources/images/forexnews.jpg" width="50" alt="荷香梦花园" height="50">
 </a>
 <div class="feed_item_question">
 <div>
@@ -544,7 +544,7 @@ IT时报
 <div class="pagedlist_item" tabindex="-1" >
 <div class="feed_item p1 row" style="padding: 10px 0 3px 0">
 <a href="/account/mjmj4321">
-<img class=" profile_photo_img" src="./resources/images/forexnews.jpg" width="25" alt="电影拆解师" height="25">
+<img class=" profile_photo_img" src="./resources/images/forexnews.jpg" width="50" alt="电影拆解师" height="50">
 </a>
 <div class="feed_item_question">
 <div>
@@ -635,7 +635,4 @@ IT时报
 </div>
 </div> 
 <script language="javascript" src="http://upcdn.b0.upaiyun.com/libs/jquery/jquery-1.4.2.min.js"></script>
-<script language="javascript" src="/static/js/mobilecommon.js"></script>
-<script language="javascript" src="/static/js/mobilebase.js"></script>
-
 </html>
