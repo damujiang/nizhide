@@ -5,6 +5,7 @@
 <link href="./resources/css/inspector.css" rel="stylesheet" type="text/css">
 <link href="./resources/css/main.css" rel="stylesheet" type="text/css">
 <link href="./resources/css/base.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="./resources/css/typo.css">
 <!--[if IE]>
 <link rel="stylesheet" type="text/css" href="./resources/css/ie.css"/><![endif]-->
 <!-- Le fav and touch icons -->

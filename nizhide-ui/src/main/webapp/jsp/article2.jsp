@@ -1,22 +1,30 @@
-﻿
-<!DOCTYPE html>
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta charset="utf-8">
-  <meta name="description" content="Typo.css 的目的是，在一致化浏览器排版效果的同时，构建最适合中文阅读的网页排版。作者：sofish Lin，基于 MIT License 协议开源。">
-  <meta name="viewport" content="width=device-width, minimal-ui">
-  <link rel="stylesheet" href="./resources/css/typo.css">
-  <title>SDCC 2015架构专场札记：一线互联网公司的架构实践</title>
-  <style>
-    code{ color:#1abc9c; }
-    html{ background:#eee; }
-    body{ width:90%; max-width: 960px; background:#fff; margin:3em auto 0; padding-top:2em;border:1px solid #ddd;border-width:0 1px;}
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link href="./resources/css/inspector.css" rel="stylesheet" type="text/css">
+<link href="./resources/css/main.css" rel="stylesheet" type="text/css">
+<link href="./resources/css/base.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="./resources/css/typo.css">
+<!--[if IE]>
+<link rel="stylesheet" type="text/css" href="./resources/css/ie.css"/><![endif]-->
+<!-- Le fav and touch icons -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/static/img/ico/apple-touch-icon-ipad3.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/static/img/ico/apple-touch-icon-iphone4.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/static/img/ico/apple-touch-icon-ipad.png">
+<link rel="apple-touch-icon-precomposed" href="/static/img/ico/apple-touch-icon-iphone.png">
+<link rel="shortcut icon" type="image/x-icon" href="./resources/images/favicon.ico">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+ <style>
+    code{ color:#1abc9c; } 
+    
     pre{white-space:pre-wrap;}
 
     i.serif{ text-transform:lowercase; color:#1abc9c; }
     :-moz-any(h1, h2, h3, h4, h5, h5) i.serif{ text-transform: capitalize; }
     i.serif:hover{ color:inherit; }
 
-    #wrapper{ padding:5% 10%; position:relative;}
+    #wrapper{ padding:1% 3%; position:relative;}
     #tagline{ color:#999; font-size:1em; margin:-2em 0 2em; padding-bottom:2em; border-bottom:3px double #eee; }
     #fork{ position:fixed; top:0; right:0; _position:absolute; }
     #table{ margin-bottom:2em; color:#888; }
@@ -31,14 +39,33 @@
       #fork{ display:none; }
     }
   </style>
+<title>传送门</title>
+
 </head>
 <body>
+<div class="mobile_page " style="min-height: 400px">
+<div id="ld_u9j4rh_102">
+<div class="mobile_header" id="header">
+<div class="logo logo_alert" id="__w2_iGwgFhq_logo">
+<a href="/" id="__w2_iGwgFhq_logo_text">传送门</a>
+</div>
+<div class="search" style="position: absolute;right: 15px;left: 88px;">
+<div class="search_contents navigator" style="width: 100%">
+<form class="search_form" action="/search" method="get" name="search_form" style="width: 100%;background: #fff">
+<div class="search_input" style="width: 100%">
+<input class="question_box" name="q" type="text"  autocomplete="off" maxlength="250" placeholder="搜索" tabindex="1" id="__w2_sH6y6to_input" style="width: 80%">
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+
+<div class="content mobile_content home_page" id="container">
 <div id="wrapper" class="typo typo-selection">
-<h1>SDCC 2015架构专场札记：一线互联网公司的架构实践</h1>
-
-<!--<h2 id="tagline" class="serif">一致化浏览器排版效果，构建最适合中文阅读的网页排版</h2>-->
-
-<p><span style="color: rgb(255, 169, 0);">【编者按】11月21日，为期三天的SDCC2015中国软件开发者大会成功闭幕，主办方总计邀请了95余位演讲嘉宾，为参会者奉献了10个主题演讲，9大技术专场论坛（80余场技术演讲），另外还有5场特色活动。另外，据官方统计参会人数高达1067名（不含工作人员）。</span></p>
+<h1>SDCC 2015架构专场札记：一线互联网公司的架构实践</h1><br/>
+ <h2 id="tagline" class="serif">2015-12-06 胡涵 沸腾</h2>
+ <p><span style="color: rgb(255, 169, 0);">【编者按】11月21日，为期三天的SDCC2015中国软件开发者大会成功闭幕，主办方总计邀请了95余位演讲嘉宾，为参会者奉献了10个主题演讲，9大技术专场论坛（80余场技术演讲），另外还有5场特色活动。另外，据官方统计参会人数高达1067名（不含工作人员）。</span></p>
 <p></p>
 <p><span style="color: rgb(255, 169, 0);">其中20日的架构专场，现场听讲人数一度爆满，而没有机会亲临现场的童鞋们，我们特邀请了业内专家、与会者分享他们的听课感受及他们眼中的架构专场。以下是来自搜狗商业平台架构师么刚参加架构专场的听课札记，以飨读者。</span></p>
 <p></p>
@@ -137,8 +164,55 @@
 <p><span style="font-size: 14px;"></span></p>
 <p><span style="font-size: 14px;"><img data-s="300,640" data-type="jpeg" data-src="http://mmbiz.qpic.cn/mmbiz/wvkocF2MXjXwFKqvfyPGmjbkYlgcek7kWS6Js51NzvQuo3MURGvmzZrMkvlQml166LW7ykZ6j54tZAkD0a3ZYg/0?wx_fmt=jpeg" data-ratio="0.017985611510791366" data-w=""></span></p>
 <p><span style="font-size: 14px;"></span></p>
-<p><span style="font-size: 14px;">（责编/ 钱曙光，关注架构和算法领域，寻求报道或者投稿请发邮件qianshg@csdn.net，交流探讨可加微信qshuguang2008，备注姓名+公司+职位） </span></p>
-<!-- #wrapper -->
+<p><span style="font-size: 14px;">（责编/ 钱曙光，关注架构和算法领域，寻求报道或者投稿请发邮件qianshg@csdn.net，交流探讨可加微信qshuguang2008，备注姓名+公司+职位） </span></p> 
+</div> 
 
+ 
+
+<!-- #wrapper -->
+</div>
+<div>
+<div class="mobile_sub_header row">
+<div class="mobile_sub_header_buttons">
+<ul>
+
+<li class="mobile_sub_header_button br5 inbox">
+<a href="#">产品</a>
+</li>
+
+<li class="mobile_sub_header_button br5 inbox">
+<a href="#">架构</a>
+</li>
+
+<li class="mobile_sub_header_button br5 inbox">
+<a href="#">Java</a>
+</li>
+
+<li class="mobile_sub_header_button br5 inbox">
+<a href="#">运营</a>
+</li>
+
+<li class="mobile_sub_header_button br5 inbox">
+<a href="#">运维</a>
+</li>
+
+<li class="mobile_sub_header_button br5 inbox">
+<a href="/">最新</a>
+</li>
+<li class="mobile_sub_header_button br5 inbox">
+<a href="#">精选</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="mobile_footer" id="footer">
+<ul class="mobile_footer_options">
+<li><a href="/">首页</a></li>
+<li class="full_site"><a href="#" target="_blank">热榜</a></li>
+</ul>
+</div>
+</div>  
 <script language="javascript" src="./resources/js/reimg.js"></script>
-</body></html>
+</html>
